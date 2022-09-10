@@ -55,6 +55,8 @@ namespace DBFirst_Aula
                     Item = "Jóias do Infinito",
                     Preco = 500000
                 });
+                db.SaveChanges();
+
             }
         }
     }
