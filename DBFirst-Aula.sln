@@ -5,6 +5,10 @@ VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBFirst-Aula", "DBFirst-Aula.csproj", "{8748B113-F9FD-4E2D-A6F9-2AC94B5775DE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst-Aula", "..\CodeFirst-Aula\CodeFirst-Aula.csproj", "{CFD5F30E-1331-47BE-840B-ED6B5DF36FF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseFirst", "DatabaseFirst", "{7A44FE06-1C6D-4950-82D4-B1A9A82CFC37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{8748B113-F9FD-4E2D-A6F9-2AC94B5775DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8748B113-F9FD-4E2D-A6F9-2AC94B5775DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8748B113-F9FD-4E2D-A6F9-2AC94B5775DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD5F30E-1331-47BE-840B-ED6B5DF36FF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD5F30E-1331-47BE-840B-ED6B5DF36FF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD5F30E-1331-47BE-840B-ED6B5DF36FF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD5F30E-1331-47BE-840B-ED6B5DF36FF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8748B113-F9FD-4E2D-A6F9-2AC94B5775DE} = {7A44FE06-1C6D-4950-82D4-B1A9A82CFC37}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {067B88D5-B10B-487B-BB27-8E9E386F2D88}
