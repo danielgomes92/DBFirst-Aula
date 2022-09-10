@@ -64,10 +64,10 @@ namespace DBFirst_Aula
                 {
                     Console.WriteLine($"Cliente: {cliente.Nome}");
                     Console.WriteLine("Pedidos: ");
-                    Console.WriteLine("===========");
                     foreach (var p in cliente.Pedidoes)
                     {
                         Console.WriteLine($"Item: {p.Item}, Preço: {p.Preco}");
+                        Console.WriteLine("===========");
                     }
                 }
 
