@@ -57,6 +57,22 @@ namespace DBFirst_Aula
                 });
                 db.SaveChanges();
 
+                //LINQ - Language Integrated Query
+                var query = from c in db.Clientes.Include("Pedidoes")
+                            select c;
+                foreach (var cliente in query)
+                {
+                    Console.WriteLine($"Cliente: {cliente.Nome}");
+                    Console.WriteLine("Pedidos: ");
+                    Console.WriteLine("===========");
+                    foreach (var p in cliente.Pedidoes)
+                    {
+                        Console.WriteLine($"Item: {p.Item}, Preço: {p.Preco}");
+                    }
+                }
+
+                Console.WriteLine("Pressione qualquer tecla...");
+                Console.ReadKey();
             }
         }
     }
