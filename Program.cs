@@ -12,7 +12,7 @@ namespace DBFirst_Aula
         {
             using (var db = new LojaEntities())
             {
-                //criando clientes e pedidos
+                //criando clientes
                 Cliente cliente1 = new Cliente()
                 {
                     Nome = "Smeagol",
@@ -36,6 +36,25 @@ namespace DBFirst_Aula
                 };
                 db.Clientes.Add(cliente3);
                 db.SaveChanges();
+
+                //criando pedidos
+                cliente1.Pedidoes.Add(new Pedido
+                {
+                    Item = "Precioso",
+                    Preco = 1000
+                });
+
+                cliente2.Pedidoes.Add(new Pedido
+                {
+                    Item = "Nimbus 2000",
+                    Preco = 10000
+                });
+
+                cliente3.Pedidoes.Add(new Pedido
+                {
+                    Item = "Jóias do Infinito",
+                    Preco = 500000
+                });
             }
         }
     }
