@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAL\EscolaContext.cs" />
+    <Compile Include="DAL\EscolaInitializer.cs" />
     <Compile Include="Model\Aluno.cs" />
     <Compile Include="Model\Curso.cs" />
     <Compile Include="Model\Matricula.cs" />
