@@ -14,5 +14,7 @@ namespace CodeFirst_Aula.Model
         public string Nome { get; set; }
         public string Sobrenome { get; set; }
         public DateTime DataMatricula { get; set; }
+
+        public virtual ICollection<Matricula> Matriculas { get; set; } // propriedade de navegação
     }
 }
