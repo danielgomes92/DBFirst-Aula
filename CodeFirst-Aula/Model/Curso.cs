@@ -9,5 +9,8 @@ namespace CodeFirst_Aula.Model
     public class Curso
     {
         //CursoID, Titulo e Creditos
+        public int CursoID { get; set; }
+        public string Titulo { get; set; }
+        public int Creditos { get; set; }
     }
 }
