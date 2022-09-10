@@ -10,6 +10,10 @@ namespace DBFirst_Aula
     {
         static void Main(string[] args)
         {
+            using (var db = new LojaEntities())
+            {
+
+            }
         }
     }
 }
