@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBFirst-Aula", "DBFirst-Aul
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DatabaseFirst", "DatabaseFirst", "{7A44FE06-1C6D-4950-82D4-B1A9A82CFC37}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeFirst", "CodeFirst", "{2DADFD0E-C07E-4C42-ABF6-131D401B1309}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeFirst-Aula", "..\CodeFirst-Aula\CodeFirst-Aula.csproj", "{5DFB4F48-4BC7-46F2-9BDA-E5358B2010B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{8748B113-F9FD-4E2D-A6F9-2AC94B5775DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8748B113-F9FD-4E2D-A6F9-2AC94B5775DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8748B113-F9FD-4E2D-A6F9-2AC94B5775DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DFB4F48-4BC7-46F2-9BDA-E5358B2010B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DFB4F48-4BC7-46F2-9BDA-E5358B2010B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DFB4F48-4BC7-46F2-9BDA-E5358B2010B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DFB4F48-4BC7-46F2-9BDA-E5358B2010B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8748B113-F9FD-4E2D-A6F9-2AC94B5775DE} = {7A44FE06-1C6D-4950-82D4-B1A9A82CFC37}
+		{5DFB4F48-4BC7-46F2-9BDA-E5358B2010B2} = {2DADFD0E-C07E-4C42-ABF6-131D401B1309}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {067B88D5-B10B-487B-BB27-8E9E386F2D88}
